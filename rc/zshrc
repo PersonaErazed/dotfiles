@@ -1,0 +1,27 @@
+# The following lines were added by compinstall
+
+zstyle ':completion:*' completer _expand _complete _ignored _approximate
+zstyle ':completion:*' list-colors ''
+zstyle ':completion:*' original false
+zstyle :compinstall filename '/home/etr/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
+# Lines configured by zsh-newuser-install
+HISTFILE=~/.zsh/histfile
+HISTSIZE=1000
+SAVEHIST=8000
+setopt autocd
+bindkey -v
+# End of lines configured by zsh-newuser-install
+
+alias ls='ls --color=auto --group-directories-first'
+alias grep='grep --color=auto'
+alias speed_test='wget -O /dev/null http://speedtest.wdc01.softlayer.com/downloads/test10.zip'
+alias pingg='sudo ping -w 2 www.google.com'
+alias wifi='sudo ip link set wlan0 down && sudo ip link set wlan0 up'
+alias nc='netcat'
+alias cb='xclip -selection c -i'
+
+typeset -A key

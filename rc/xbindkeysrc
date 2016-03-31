@@ -1,0 +1,56 @@
+"firefox"
+  XF86HomePage
+
+"/home/etr/bin/random_apod.sh"
+   Mod4 + Super_L + space
+
+"/home/etr/bin/ataday.sh"
+   Mod4 + Super_L + shift + space
+
+"firefox gmail.com"
+   XF86Mail
+
+"firefox https://mail.google.com/mail/u/1/#inbox"
+   Alt + XF86Mail
+
+"amixer -- sset Master 2dB+"
+   Alt + XF86AudioRaiseVolume
+
+"amixer -- sset Master 2dB-"
+   Alt + XF86AudioLowerVolume
+
+"amixer -- sset PCM 2dB+"
+   XF86AudioRaiseVolume
+
+"amixer -- sset PCM 2dB-"
+   XF86AudioLowerVolume
+
+"amixer set Master toggle"
+   XF86AudioMute
+
+"sudo shutdown -h 0"
+   XF86PowerOff
+
+"scrot 'screenshot_%Y-%m-%d_$w$h.png' -s  -e 'mv $f ~/shots/'"
+  Print
+
+"/home/etr/bin/play_fav.sh"
+  Alt + XF86AudioPlay
+
+"xterm -bg black -fg white -e ncmpcpp"
+  Mod4 + Super_L + XF86AudioPlay
+
+"mpc toggle"
+  XF86AudioPlay
+
+"xscreensaver-command -activate"
+  XF86Calculator
+
+"mpc pause"
+  Pause
+
+"mpc prev"
+  XF86AudioPrev
+
+"mpc next"
+  XF86AudioNext

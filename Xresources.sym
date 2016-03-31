@@ -1,0 +1,6 @@
+xterm*termName: xterm-256color
+XTerm*VT100.translations: #override <Btn1Up>: select-end(PRIMARY, CLIPBOARD, CUT_BUFFER0)
+xterm*faceName: Liberation Mono:size=10:antialias=true
+
+!#include ".dotfiles/xresources/Xresources.light"
+#include ".dotfiles/xresources/Xresources.dark"

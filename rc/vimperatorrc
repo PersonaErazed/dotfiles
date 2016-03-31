@@ -1,0 +1,19 @@
+"3.11.3 (created: 2016/01/30 14:42:44)
+
+highlight Hint font-family: sans-serif; font-size: 10px; font-weight: bold; text-transform: uppercase; color: black; background: #f0f0f0; border: 1px solid #ddd; padding: .25em .5em; margin-top: -.25em; margin-left: -.5em; border-radius: 5px; text-shadow: 0 1px 0 #fff;
+highlight HintElem nothing: yes;
+set gui=none
+set gui=tabs
+map <F2> :echo<Space>Date()<Return>
+map x ;open<Space>reddit.com/r/random<Return>
+map X t<Return>x
+nnoremap m gt
+nnoremap , gT
+noremap ; :
+noremap : ;
+autocmd LocationChange .*                             js modes.passAllKeys = false
+autocmd LocationChange www\\.google\\.com/foobar      js modes.passAllKeys = true
+autocmd LocationChange www\\.regexr\\.com/            js modes.passAllKeys = true
+source! /home/etr/.vimperatorrc.local
+
+" vim: set ft=vimperator:

@@ -8,10 +8,10 @@ import XMonad.Layout.Magnifier
 
 -----------------------------------------------------------------
 mylayoutHook = 
-    noBorders(magnifier(tiled))
+        noBorders(Full) 
     ||| Mirror tiled 
---    ||| tiled 
-    ||| noBorders(Full) 
+    ||| tiled 
+    ||| noBorders(magnifier(tiled))
 
   where
     -- default tiling algorithm partitions the screen into two panes
@@ -45,4 +45,5 @@ main = xmonad $
             , layoutHook = 
                   onWorkspace "gimp" gimpLayout $
                   mylayoutHook
+            , focusFollowsMouse = False
             }

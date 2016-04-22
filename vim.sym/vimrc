@@ -1,0 +1,15 @@
+set nocompatible      "use vim features (compatibility in reference to vi)
+
+execute pathogen#infect()   
+
+syntax enable
+set background=dark
+colorscheme solarized
+
+
+filetype indent off
+inoremap jk <esc>
+noremap ; :
+noremap : ;
+set number
+set colorcolumn=81

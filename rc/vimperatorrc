@@ -10,7 +10,8 @@ map X t<Return>x
 nnoremap m gt
 nnoremap , gT
 noremap ; :
-noremap : ;
+noremap : :!
+noremap jk <Esc>
 autocmd LocationChange .*                             js modes.passAllKeys = false
 autocmd LocationChange www\\.google\\.com/foobar      js modes.passAllKeys = true
 autocmd LocationChange www\\.regexr\\.com/            js modes.passAllKeys = true
